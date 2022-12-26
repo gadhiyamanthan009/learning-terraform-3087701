@@ -41,7 +41,7 @@ module "blog_sg" {
   ingress_rules = ["http-80-tcp","https-443-tcp"]
   cidr_blocks   = ["0.0.0.0/0"]
 
-  4gress_rules = ["all-all"]
+  egress_rules = ["all-all"]
   cidr_blocks   = ["0.0.0.0/0"]
 
 }
